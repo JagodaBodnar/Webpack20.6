@@ -1,0 +1,25 @@
+.delete{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: flex-end;
+    color: #6f33bd;
+}
+.taskContainer{
+    text-align: center;
+    border: 1px solid #290836;
+    width: 220px;
+    box-shadow: 0 3px 4px #2e093b;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    word-wrap: break-word;
+}
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}

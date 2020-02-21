@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './App.css';
-import Title from '../components/Title.js';
+import Title from '../components/Title';
+import TodoList from '../components/TodoList';
 
 class App extends React.Component {
     constructor(props){
@@ -23,11 +24,9 @@ class App extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className={style.TodoApp}>
                 <Title title={"Todo"} listCount={this.state.data.length}/>
-                <div className={style.TodoApp}>
-                    Tutaj pojawią się komponenty naszej aplikacji.
-                </div>
+                <TodoList />
             </div>
         );
     }
