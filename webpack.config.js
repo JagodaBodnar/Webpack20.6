@@ -29,7 +29,7 @@ const environment = env || 'production';
             rules: [
                 {
                     test: /\.js$/,
-                    loader: "babel-loader"	
+                    loader: "babel-loader"
                 },
                 {
                     test: /\.css$/,
